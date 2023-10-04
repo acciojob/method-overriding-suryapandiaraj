@@ -1,7 +1,8 @@
 package com.driver;
 
-public class A {
+public class B extends A {
+    @Override
     public String meth() {
-        return "Invoking method from class A";
+        return "Method is overridden in Extendend class B";
     }
 }
